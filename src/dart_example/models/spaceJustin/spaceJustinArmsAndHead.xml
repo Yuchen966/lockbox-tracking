@@ -1,0 +1,330 @@
+<?xml version="1.0" ?>
+<model version="1">
+    <frame jointName="Right Arm 0" jointType="rotational" jointMin="-2.96706" jointMax="2.96706">
+        <position x="0" y="0" z="0" />
+        <orientation x="0" y="-0" z="0" />
+        <axis x="0" y="0" z="1" />
+        <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="2.53518e-06" rz="3.14159" red="83" green="147" blue="186" meshFile="spaceJustinMeshes/right-lwr-3-link12-34-closed.obj" />
+        <frame jointName="Right Arm 1" jointType="rotational" jointMin="-2.0944" jointMax="2.0944">
+            <position x="0" y="0" z="0" />
+            <orientation x="1.5708" y="-0" z="0" />
+            <axis x="0" y="0" z="1" />
+            <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="2.53518e-06" rz="3.14159" red="83" green="147" blue="186" meshFile="spaceJustinMeshes/right-lwr-3-link23-45-closed.obj" />
+            <frame jointName="Right Arm 2" jointType="rotational" jointMin="-2.96706" jointMax="2.96706">
+                <position x="0" y="0.4" z="0" />
+                <orientation x="-1.5708" y="-1.5708" z="0" />
+                <axis x="0" y="0" z="1" />
+                <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="2.53518e-06" rz="3.14159" red="83" green="147" blue="186" meshFile="spaceJustinMeshes/right-lwr-3-link12-34-closed.obj" />
+                <frame jointName="Right Arm 3" jointType="rotational" jointMin="-2.0944" jointMax="2.0944">
+                    <position x="0" y="0" z="0" />
+                    <orientation x="1.5708" y="-0" z="0" />
+                    <axis x="0" y="0" z="1" />
+                    <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="2.53518e-06" rz="3.14159" red="83" green="147" blue="186" meshFile="spaceJustinMeshes/right-lwr-3-link23-45-closed.obj" />
+                    <frame jointName="Right Arm 4" jointType="rotational" jointMin="-2.96706" jointMax="2.96706">
+                        <position x="0" y="0.39" z="0" />
+                        <orientation x="1.5708" y="1.45547e-06" z="3.14159" />
+                        <axis x="0" y="0" z="1" />
+                        <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="2.53518e-06" rz="3.14159" red="83" green="147" blue="186" meshFile="spaceJustinMeshes/right-lwr-3-link56-closed.obj" />
+                        <frame jointName="Right Arm 5" jointType="rotational" jointMin="-0.785398" jointMax="1.39626">
+                            <position x="0" y="0" z="0" />
+                            <orientation x="1.5708" y="-1.5708" z="0" />
+                            <axis x="0" y="0" z="1" />
+                            <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="2.53518e-06" rz="3.14159" red="83" green="147" blue="186" meshFile="spaceJustinMeshes/right-lwr-3-link67-closed.obj" />
+                            <frame jointName="Right Arm 6" jointType="rotational" jointMin="-0.785398" jointMax="2.35619">
+                                <position x="0" y="0" z="0" />
+                                <orientation x="1.5708" y="1.5708" z="0" />
+                                <axis x="0" y="0" z="1" />
+                                <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="2.53518e-06" rz="3.14159" red="83" green="147" blue="186" meshFile="spaceJustinMeshes/right-lwr-3-link7-base-closed.obj" />
+                                <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0.138" tz="2.6077e-07" rx="1.5708" ry="-0" rz="0" red="83" green="147" blue="186" meshFile="spaceJustinMeshes/hit-hand-2-palm-right-closed.obj" />
+                                <frame jointName="Right Thumb F/E 1" jointType="rotational" jointMin="0.0872665" jointMax="1.48353">
+                                    <position x="-0.062569" y="0.218045" z="0.044544" />
+                                    <orientation x="-2.54784" y="-0.188285" z="2.0228" />
+                                    <axis x="0" y="0" z="1" />
+                                    <frame jointName="Right Thumb A/A" jointType="rotational" jointMin="-0.261799" jointMax="0.261799">
+                                        <position x="0" y="0" z="0" />
+                                        <orientation x="-1.5708" y="-0" z="0" />
+                                        <axis x="0" y="0" z="1" />
+                                        <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="1.5708" ry="1.45547e-06" rz="3.14159" red="114" green="60" blue="80" meshFile="spaceJustinMeshes/hit-hand-2-finger-phaprox-closed.obj" />
+                                        <frame jointName="Right Thumb F/E 2" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                            <position x="0.055" y="0" z="0" />
+                                            <orientation x="1.5708" y="-0" z="0" />
+                                            <axis x="0" y="0" z="1" />
+                                            <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="158" green="84" blue="112" meshFile="spaceJustinMeshes/hit-hand-2-finger-phamed-closed.obj" />
+                                            <frame jointName="Right Thumb F/E 3" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                                <position x="0.025" y="0" z="0" />
+                                                <orientation x="0" y="-0" z="-1.5708" />
+                                                <axis x="0" y="0" z="1" />
+                                                <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="217" green="113" blue="138" meshFile="spaceJustinMeshes/hit-hand-2-finger-phadist-closed.obj" />
+                                            </frame>
+                                        </frame>
+                                    </frame>
+                                </frame>
+                                <frame jointName="Right Index F/E 1" jointType="rotational" jointMin="0.0872665" jointMax="1.48353">
+                                    <position x="0.00253" y="0.246744" z="0.0368" />
+                                    <orientation x="-0.0872607" y="-5.71087e-06" z="1.5708" />
+                                    <axis x="0" y="0" z="1" />
+                                    <frame jointName="Right Index A/A" jointType="rotational" jointMin="-0.261799" jointMax="0.261799">
+                                        <position x="0" y="0" z="0" />
+                                        <orientation x="-1.5708" y="-0" z="0" />
+                                        <axis x="0" y="0" z="1" />
+                                        <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="1.5708" ry="1.45547e-06" rz="3.14159" red="22" green="133" blue="97" meshFile="spaceJustinMeshes/hit-hand-2-finger-phaprox-closed.obj" />
+                                        <frame jointName="Right Index F/E 2" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                            <position x="0.055" y="0" z="0" />
+                                            <orientation x="1.5708" y="-0" z="0" />
+                                            <axis x="0" y="0" z="1" />
+                                            <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="32" green="191" blue="139" meshFile="spaceJustinMeshes/hit-hand-2-finger-phamed-closed.obj" />
+                                            <frame jointName="Right Index F/E 3" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                                <position x="0.025" y="0" z="0" />
+                                                <orientation x="0" y="-0" z="-1.5708" />
+                                                <axis x="0" y="0" z="1" />
+                                                <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="111" green="231" blue="192" meshFile="spaceJustinMeshes/hit-hand-2-finger-phadist-closed.obj" />
+                                            </frame>
+                                        </frame>
+                                    </frame>
+                                </frame>
+                                <frame jointName="Right Middle F/E 1" jointType="rotational" jointMin="0.0872665" jointMax="1.48353">
+                                    <position x="0.0037" y="0.257044" z="0.01" />
+                                    <orientation x="-1.90986e-06" y="-6.36622e-07" z="1.57079" />
+                                    <axis x="0" y="0" z="1" />
+                                    <frame jointName="Right Middle A/A" jointType="rotational" jointMin="-0.261799" jointMax="0.261799">
+                                        <position x="0" y="0" z="0" />
+                                        <orientation x="-1.5708" y="-0" z="0" />
+                                        <axis x="0" y="0" z="1" />
+                                        <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="1.5708" ry="1.45547e-06" rz="3.14159" red="80" green="63" blue="113" meshFile="spaceJustinMeshes/hit-hand-2-finger-phaprox-closed.obj" />
+                                        <frame jointName="Right Middle F/E 2" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                            <position x="0.055" y="0" z="0" />
+                                            <orientation x="1.5708" y="-0" z="0" />
+                                            <axis x="0" y="0" z="1" />
+                                            <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="110" green="87" blue="157" meshFile="spaceJustinMeshes/hit-hand-2-finger-phamed-closed.obj" />
+                                            <frame jointName="Right Middle F/E 3" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                                <position x="0.025" y="0" z="0" />
+                                                <orientation x="0" y="-0" z="-1.5708" />
+                                                <axis x="0" y="0" z="1" />
+                                                <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="147" green="128" blue="184" meshFile="spaceJustinMeshes/hit-hand-2-finger-phadist-closed.obj" />
+                                            </frame>
+                                        </frame>
+                                    </frame>
+                                </frame>
+                                <frame jointName="Right Ring F/E 1" jointType="rotational" jointMin="0.0872665" jointMax="1.48353">
+                                    <position x="0.00253" y="0.252044" z="-0.0168" />
+                                    <orientation x="0.0872613" y="3.71411e-06" z="1.5708" />
+                                    <axis x="0" y="0" z="1" />
+                                    <frame jointName="Right Ring A/A" jointType="rotational" jointMin="-0.261799" jointMax="0.261799">
+                                        <position x="0" y="0" z="0" />
+                                        <orientation x="-1.5708" y="-0" z="0" />
+                                        <axis x="0" y="0" z="1" />
+                                        <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="1.5708" ry="1.45547e-06" rz="3.14159" red="149" green="98" blue="44" meshFile="spaceJustinMeshes/hit-hand-2-finger-phaprox-closed.obj" />
+                                        <frame jointName="Right Ring F/E 2" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                            <position x="0.055" y="0" z="0" />
+                                            <orientation x="1.5708" y="-0" z="0" />
+                                            <axis x="0" y="0" z="1" />
+                                            <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="198" green="132" blue="63" meshFile="spaceJustinMeshes/hit-hand-2-finger-phamed-closed.obj" />
+                                            <frame jointName="Right Ring F/E 3" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                                <position x="0.025" y="0" z="0" />
+                                                <orientation x="0" y="-0" z="-1.5708" />
+                                                <axis x="0" y="0" z="1" />
+                                                <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="210" green="157" blue="102" meshFile="spaceJustinMeshes/hit-hand-2-finger-phadist-closed.obj" />
+                                            </frame>
+                                        </frame>
+                                    </frame>
+                                </frame>
+                                <frame jointName="Right Little F/E 1" jointType="rotational" jointMin="0.0872665" jointMax="1.48353">
+                                    <position x="-0.000971" y="0.233044" z="-0.043396" />
+                                    <orientation x="0.174528" y="-2.78652e-06" z="1.57079" />
+                                    <axis x="0" y="0" z="1" />
+                                    <frame jointName="Right Little A/A" jointType="rotational" jointMin="-0.261799" jointMax="0.261799">
+                                        <position x="0" y="0" z="0" />
+                                        <orientation x="-1.5708" y="-0" z="0" />
+                                        <axis x="0" y="0" z="1" />
+                                        <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="1.5708" ry="1.45547e-06" rz="3.14159" red="233" green="217" blue="61" meshFile="spaceJustinMeshes/hit-hand-2-finger-phaprox-closed.obj" />
+                                        <frame jointName="Right Little F/E 2" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                            <position x="0.055" y="0" z="0" />
+                                            <orientation x="1.5708" y="-0" z="0" />
+                                            <axis x="0" y="0" z="1" />
+                                            <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="241" green="232" blue="137" meshFile="spaceJustinMeshes/hit-hand-2-finger-phamed-closed.obj" />
+                                            <frame jointName="Right Little F/E 3" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                                <position x="0.025" y="0" z="0" />
+                                                <orientation x="0" y="-0" z="-1.5708" />
+                                                <axis x="0" y="0" z="1" />
+                                                <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="247" green="241" blue="183" meshFile="spaceJustinMeshes/hit-hand-2-finger-phadist-closed.obj" />
+                                            </frame>
+                                        </frame>
+                                    </frame>
+                                </frame>
+                            </frame>
+                        </frame>
+                    </frame>
+                </frame>
+            </frame>
+        </frame>
+    </frame>
+    <frame jointName="Left Arm 0" jointType="rotational" jointMin="-2.96706" jointMax="2.96706">
+        <position x="-0.255989" y="0" z="-0.443373" />
+        <orientation x="-1.51036e-07" y="-1.0473" z="-3.14159" />
+        <axis x="0" y="0" z="1" />
+        <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="0" ry="-0" rz="3.14159" red="83" green="147" blue="186" meshFile="spaceJustinMeshes/right-lwr-3-link12-34-closed.obj" />
+        <frame jointName="Left Arm 1" jointType="rotational" jointMin="-2.0944" jointMax="2.0944">
+            <position x="0" y="0" z="0" />
+            <orientation x="1.5708" y="-0" z="0" />
+            <axis x="0" y="0" z="1" />
+            <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="0" ry="-0" rz="3.14159" red="83" green="147" blue="186" meshFile="spaceJustinMeshes/right-lwr-3-link23-45-closed.obj" />
+            <frame jointName="Left Arm 2" jointType="rotational" jointMin="-2.96706" jointMax="2.96706">
+                <position x="0" y="-0.4" z="0" />
+                <orientation x="-1.5708" y="-1.5708" z="0" />
+                <axis x="0" y="0" z="1" />
+                <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="0" ry="-0" rz="3.14159" red="83" green="147" blue="186" meshFile="spaceJustinMeshes/right-lwr-3-link12-34-closed.obj" />
+                <frame jointName="Left Arm 3" jointType="rotational" jointMin="-2.0944" jointMax="2.0944">
+                    <position x="0" y="0" z="0" />
+                    <orientation x="1.5708" y="-0" z="0" />
+                    <axis x="0" y="0" z="1" />
+                    <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="0" ry="-0" rz="3.14159" red="83" green="147" blue="186" meshFile="spaceJustinMeshes/right-lwr-3-link23-45-closed.obj" />
+                    <frame jointName="Left Arm 4" jointType="rotational" jointMin="-2.96706" jointMax="2.96706">
+                        <position x="0" y="-0.39" z="0" />
+                        <orientation x="-1.5708" y="-0" z="0" />
+                        <axis x="0" y="0" z="1" />
+                        <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="0" ry="-0" rz="0" red="83" green="147" blue="186" meshFile="spaceJustinMeshes/right-lwr-3-link56-closed.obj" />
+                        <frame jointName="Left Arm 5" jointType="rotational" jointMin="-0.785398" jointMax="1.39626">
+                            <position x="0" y="0" z="0" />
+                            <orientation x="-1.5708" y="1.5708" z="0" />
+                            <axis x="0" y="0" z="1" />
+                            <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="0" ry="-0" rz="0" red="83" green="147" blue="186" meshFile="spaceJustinMeshes/right-lwr-3-link67-closed.obj" />
+                            <frame jointName="Left Arm 6" jointType="rotational" jointMin="-0.785398" jointMax="2.35619">
+                                <position x="0" y="0" z="0" />
+                                <orientation x="-1.5708" y="-1.5708" z="0" />
+                                <axis x="0" y="0" z="1" />
+                                <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="0" ry="-0" rz="0" red="83" green="147" blue="186" meshFile="spaceJustinMeshes/right-lwr-3-link7-base-closed.obj" />
+                                <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0.138" tz="2.6077e-07" rx="1.5708" ry="-0" rz="0" red="83" green="147" blue="186" meshFile="spaceJustinMeshes/hit-hand-2-palm-left-closed.obj" />
+                                <frame jointName="Thumb F/E 1" jointType="rotational" jointMin="0.0872665" jointMax="1.48353">
+                                    <position x="-0.062569" y="0.218045" z="-0.044545" />
+                                    <orientation x="2.54784" y="0.188285" z="2.0228" />
+                                    <axis x="0" y="0" z="1" />
+                                    <frame jointName="Thumb A/A" jointType="rotational" jointMin="-0.261799" jointMax="0.261799">
+                                        <position x="0" y="0" z="0" />
+                                        <orientation x="-1.5708" y="-0" z="0" />
+                                        <axis x="0" y="0" z="1" />
+                                        <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="1.5708" ry="1.45547e-06" rz="3.14159" red="114" green="60" blue="80" meshFile="spaceJustinMeshes/hit-hand-2-finger-phaprox-closed.obj" />
+                                        <frame jointName="Thumb F/E 2" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                            <position x="0.055" y="0" z="0" />
+                                            <orientation x="1.5708" y="-0" z="0" />
+                                            <axis x="0" y="0" z="1" />
+                                            <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="158" green="84" blue="112" meshFile="spaceJustinMeshes/hit-hand-2-finger-phamed-closed.obj" />
+                                            <frame jointName="Thumb F/E 3" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                                <position x="0.025" y="0" z="0" />
+                                                <orientation x="0" y="-0" z="-1.5708" />
+                                                <axis x="0" y="0" z="1" />
+                                                <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="217" green="113" blue="138" meshFile="spaceJustinMeshes/hit-hand-2-finger-phadist-closed.obj" />
+                                            </frame>
+                                        </frame>
+                                    </frame>
+                                </frame>
+                                <frame jointName="Index F/E 1" jointType="rotational" jointMin="0.0872665" jointMax="1.48353">
+                                    <position x="0.00253" y="0.246744" z="-0.0368" />
+                                    <orientation x="0.0872652" y="7.45058e-08" z="1.57079" />
+                                    <axis x="0" y="0" z="1" />
+                                    <frame jointName="Index A/A" jointType="rotational" jointMin="-0.261799" jointMax="0.261799">
+                                        <position x="0" y="0" z="0" />
+                                        <orientation x="-1.5708" y="-0" z="0" />
+                                        <axis x="0" y="0" z="1" />
+                                        <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="1.5708" ry="1.45547e-06" rz="3.14159" red="22" green="133" blue="97" meshFile="spaceJustinMeshes/hit-hand-2-finger-phaprox-closed.obj" />
+                                        <frame jointName="Index F/E 2" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                            <position x="0.055" y="0" z="0" />
+                                            <orientation x="1.5708" y="-0" z="0" />
+                                            <axis x="0" y="0" z="1" />
+                                            <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="32" green="191" blue="139" meshFile="spaceJustinMeshes/hit-hand-2-finger-phamed-closed.obj" />
+                                            <frame jointName="Index F/E 3" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                                <position x="0.025" y="0" z="0" />
+                                                <orientation x="0" y="-0" z="-1.5708" />
+                                                <axis x="0" y="0" z="1" />
+                                                <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="111" green="231" blue="192" meshFile="spaceJustinMeshes/hit-hand-2-finger-phadist-closed.obj" />
+                                            </frame>
+                                        </frame>
+                                    </frame>
+                                </frame>
+                                <frame jointName="Middle F/E 1" jointType="rotational" jointMin="0.0872665" jointMax="1.48353">
+                                    <position x="0.0037" y="0.257044" z="-0.01" />
+                                    <orientation x="-1.90986e-06" y="-6.36622e-07" z="1.57079" />
+                                    <axis x="0" y="0" z="1" />
+                                    <frame jointName="Middle A/A" jointType="rotational" jointMin="-0.261799" jointMax="0.261799">
+                                        <position x="0" y="0" z="0" />
+                                        <orientation x="-1.5708" y="-0" z="0" />
+                                        <axis x="0" y="0" z="1" />
+                                        <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="1.5708" ry="1.45547e-06" rz="3.14159" red="80" green="63" blue="113" meshFile="spaceJustinMeshes/hit-hand-2-finger-phaprox-closed.obj" />
+                                        <frame jointName="Middle F/E 2" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                            <position x="0.055" y="0" z="0" />
+                                            <orientation x="1.5708" y="-0" z="0" />
+                                            <axis x="0" y="0" z="1" />
+                                            <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="110" green="87" blue="157" meshFile="spaceJustinMeshes/hit-hand-2-finger-phamed-closed.obj" />
+                                            <frame jointName="Middle F/E 3" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                                <position x="0.025" y="0" z="0" />
+                                                <orientation x="0" y="-0" z="-1.5708" />
+                                                <axis x="0" y="0" z="1" />
+                                                <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="147" green="128" blue="184" meshFile="spaceJustinMeshes/hit-hand-2-finger-phadist-closed.obj" />
+                                            </frame>
+                                        </frame>
+                                    </frame>
+                                </frame>
+                                <frame jointName="Ring F/E 1" jointType="rotational" jointMin="0.0872665" jointMax="1.48353">
+                                    <position x="0.00253" y="0.252044" z="0.0168" />
+                                    <orientation x="-0.0872684" y="5.62519e-07" z="1.57079" />
+                                    <axis x="0" y="0" z="1" />
+                                    <frame jointName="Ring A/A" jointType="rotational" jointMin="-0.261799" jointMax="0.261799">
+                                        <position x="0" y="0" z="0" />
+                                        <orientation x="-1.5708" y="-0" z="0" />
+                                        <axis x="0" y="0" z="1" />
+                                        <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="1.5708" ry="1.45547e-06" rz="3.14159" red="149" green="98" blue="44" meshFile="spaceJustinMeshes/hit-hand-2-finger-phaprox-closed.obj" />
+                                        <frame jointName="Ring F/E 2" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                            <position x="0.055" y="0" z="0" />
+                                            <orientation x="1.5708" y="-0" z="0" />
+                                            <axis x="0" y="0" z="1" />
+                                            <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="198" green="132" blue="63" meshFile="spaceJustinMeshes/hit-hand-2-finger-phamed-closed.obj" />
+                                            <frame jointName="Ring F/E 3" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                                <position x="0.025" y="0" z="0" />
+                                                <orientation x="0" y="-0" z="-1.5708" />
+                                                <axis x="0" y="0" z="1" />
+                                                <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="210" green="157" blue="102" meshFile="spaceJustinMeshes/hit-hand-2-finger-phadist-closed.obj" />
+                                            </frame>
+                                        </frame>
+                                    </frame>
+                                </frame>
+                                <frame jointName="Little F/E 1" jointType="rotational" jointMin="0.0872665" jointMax="1.48353">
+                                    <position x="-0.000972" y="0.233044" z="0.043396" />
+                                    <orientation x="-0.174534" y="5.58794e-07" z="1.5708" />
+                                    <axis x="0" y="0" z="1" />
+                                    <frame jointName="Little A/A" jointType="rotational" jointMin="-0.261799" jointMax="0.261799">
+                                        <position x="0" y="0" z="0" />
+                                        <orientation x="-1.5708" y="-0" z="0" />
+                                        <axis x="0" y="0" z="1" />
+                                        <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="1.5708" ry="1.45547e-06" rz="3.14159" red="233" green="217" blue="61" meshFile="spaceJustinMeshes/hit-hand-2-finger-phaprox-closed.obj" />
+                                        <frame jointName="Little F/E 2" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                            <position x="0.055" y="0" z="0" />
+                                            <orientation x="1.5708" y="-0" z="0" />
+                                            <axis x="0" y="0" z="1" />
+                                            <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="241" green="232" blue="137" meshFile="spaceJustinMeshes/hit-hand-2-finger-phamed-closed.obj" />
+                                            <frame jointName="Little F/E 3" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                                                <position x="0.025" y="0" z="0" />
+                                                <orientation x="0" y="-0" z="-1.5708" />
+                                                <axis x="0" y="0" z="1" />
+                                                <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="247" green="241" blue="183" meshFile="spaceJustinMeshes/hit-hand-2-finger-phadist-closed.obj" />
+                                            </frame>
+                                        </frame>
+                                    </frame>
+                                </frame>
+                            </frame>
+                        </frame>
+                    </frame>
+                </frame>
+            </frame>
+        </frame>
+    </frame>
+    <frame jointName="head pan" jointType="rotational" jointMin="-1.65806" jointMax="1.65806">
+        <position x="-0.16697" y="0" z="-0.199196" />
+        <orientation x="1.04718" y="6.4075e-06" z="-1.57081" />
+        <axis x="0" y="0" z="1" />
+        <frame jointName="head tilt" jointType="rotational" jointMin="-0.872665" jointMax="0.523599">
+            <position x="0" y="0" z="0" />
+            <orientation x="-1.5708" y="-0" z="0" />
+            <axis x="0" y="0" z="1" />
+            <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="247" green="241" blue="183" meshFile="spaceJustinMeshes/head.obj" />
+        </frame>
+    </frame>
+</model>

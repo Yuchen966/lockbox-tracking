@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<model version="1">
+    <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="1.50996e-07" rz="3.14159" red="240" green="240" blue="240" meshFile="ikeaMug.obj" />
+</model>
