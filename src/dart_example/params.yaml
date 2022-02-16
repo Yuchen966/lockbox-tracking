@@ -1,0 +1,5 @@
+depth_imgs_path: "~/Documents/dart/dart_example_ros/video/depth"
+
+# The names of topics to listen and publish to
+joy_topic: "/joy"
+

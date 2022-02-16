@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<model version="1">
+    <geom type="mesh" sx="0.048" sy="-0.048" sz="0.048" tx="-0.0" ty="-0" tz="0" rx="-0.0" ry="-0.0" rz="0" red="114" green="60" blue="80" meshFile="backmesh_with_hole.obj" />
+    <geom type="mesh" sx="0.048" sy="0.048" sz="0.048" tx="-0.018" ty="-0.06" tz="-0.145" rx="0" ry="0" rz="0" red="128" green="255" blue="0" meshFile="rigidmesh_small.obj" />
+    <frame jointName="disk_joint" jointType="rotational" jointMin="0" jointMax="1.570796">
+        <position x="20" y="-13.5" z="14.5" />
+        <orientation x="0" y="0" z="0" />
+        <axis x="0" y="1" z="0" />
+        <geom type="mesh" sx="0.048" sy="-0.048" sz="0.048" tx="0" ty="0" tz="0" rx="0" ry="1.570796" rz="0" red="255" green="0" blue="0" meshFile="diskmesh_handle.obj" />
+    </frame>
+    <!-- <frame jointName="cuboid_joint" jointType="prismatic" jointMin="-0.0315" jointMax="0.0"> -->
+    <frame jointName="cuboid_joint" jointType="prismatic" jointMin="-1.0" jointMax="1.0">
+        <position x="20" y="-15" z="-7.5" />
+        <orientation x="0" y="0" z="0" />
+        <axis x="0" y="0" z="1" />
+        <geom type="mesh" sx="0.048" sy="-0.048" sz="0.048" tx="0" ty="0" tz="0" rx="0" ry="1.570796" rz="0" red="0" green="255" blue="0" meshFile="cuboidmesh_small.obj" />
+    </frame>
+    <frame jointName="cylinder_joint" jointType="prismatic" jointMin="0.0" jointMax="0.02975">
+        <position x="-10" y="-13.5" z="14" />
+        <orientation x="0" y="0" z="0" />
+        <axis x="1" y="0" z="0" />
+        <geom type="mesh" sx="0.048" sy="-0.048" sz="0.048" tx="-0.0" ty="-0.0" tz="0.0" rx="0" ry="3.14159" rz="0" red="102" green="0" blue="204" meshFile="cylindermesh_small.obj" />
+    </frame>
+    <frame jointName="door_in_joint" jointType="rotational" jointMin="-3.14159" jointMax="0.0">
+        <position x="-18" y="-11" z="34.5" />
+        <orientation x="0" y="0" z="0" />
+        <axis x="1" y="0" z="0" />
+        <geom type="mesh" sx="0.048" sy="-0.048" sz="0.048" tx="-0.0" ty="-0.0" tz="0.0" rx="0" ry="0" rz="0" red="49" green="49" blue="202" meshFile="doormesh_in_handle.obj" />
+    </frame>
+    <frame jointName="door_out_joint" jointType="rotational" jointMin="-2.20" jointMax="0.315">
+        <position x="5" y="-13.5" z="-39.5" />
+        <orientation x="0" y="0" z="0" />
+        <axis x="0" y="0" z="1" />
+        <geom type="mesh" sx="-0.048" sy="-0.048" sz="0.048" tx="0.0" ty="-0.0" tz="-0" rx="0" ry="-1.57" rz="0" red="51" green="255" blue="255" meshFile="doormesh_out_small.obj" />
+    </frame>
+    
+</model>
