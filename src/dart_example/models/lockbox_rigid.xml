@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<model version="1">
+    <geom type="mesh" sx="0.035" sy="-0.035" sz="0.035" tx="-0.0" ty="-0" tz="0" rx="-0.0" ry="-0.0" rz="0" red="114" green="60" blue="80" meshFile="backmesh_with_hole.obj" />
+    <geom type="mesh" sx="0.035" sy="0.035" sz="0.035" tx="-0.01225" ty="-0.042" tz="-0.1085" rx="0" ry="0" rz="0" red="49" green="49" blue="202" meshFile="rigidmesh.obj" />
+    <geom type="mesh" sx="0.035" sy="-0.035" sz="0.035" tx="0.07" ty="-0.04725" tz="0.05075" rx="0" ry="1.570796" rz="0" red="255" green="0" blue="0" meshFile="diskmesh_handle.obj" />
+    <geom type="mesh" sx="0.035" sy="-0.035" sz="0.035" tx="0.07" ty="-0.04725" tz="-0.02625" rx="0" ry="1.570796" rz="0" red="0" green="255" blue="0" meshFile="cuboidmesh_handle.obj" />
+    <geom type="mesh" sx="0.035" sy="-0.035" sz="0.035" tx="-0.035" ty="-0.04725" tz="0.05075" rx="0" ry="3.14159" rz="0" red="0" green="0" blue="255" meshFile="cylindermesh.obj" />
+    <geom type="mesh" sx="-0.035" sy="-0.035" sz="0.035" tx="0.0175" ty="-0.0455" tz="-0.13825" rx="0" ry="-1.57" rz="0" red="49" green="49" blue="202" meshFile="doormesh_out.obj" />
+    <geom type="mesh" sx="0.035" sy="-0.035" sz="0.035" tx="-0.06125" ty="-0.0385" tz="0.12075" rx="0" ry="0" rz="0" red="49" green="49" blue="202" meshFile="doormesh_in.obj" />
+    <!-- <geom type="mesh" sx="0.035" sy="-0.035" sz="0.035" tx="0.08" ty="-0.04725" tz="0.058" rx="0" ry="1.570796" rz="0" red="255" green="0" blue="0" meshFile="diskmesh_handle.obj" />
+    <geom type="mesh" sx="0.035" sy="-0.035" sz="0.035" tx="0.08" ty="-0.04725" tz="-0.03" rx="0" ry="1.570796" rz="0" red="0" green="255" blue="0" meshFile="cuboidmesh_handle.obj" /> -->
+    <!-- <frame jointName="disk_joint" jointType="rotational" jointMin="0" jointMax="1.48353">
+        <position x="0.099" y="-0.04455" z="0.04785" />
+        <orientation x="0" y="0" z="0" />
+        <axis x="0" y="1" z="0" />
+        <geom type="mesh" sx="0.033" sy="0.033" sz="0.033" tx="-0.0" ty="-0.0" tz="0.0" rx="-0.0" ry="-0.0" rz="0" red="255" green="0" blue="0" meshFile="diskmesh.obj" />
+    </frame> -->
+        <!--frame jointName="Thumb A/A" jointType="rotational" jointMin="-0.261799" jointMax="0.261799">
+            <position x="0" y="0" z="0" />
+            <orientation x="-1.5708" y="-0" z="0" />
+            <axis x="0" y="0" z="1" />
+            <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="1.5708" ry="1.45547e-06" rz="3.14159" red="114" green="60" blue="80" meshFile="spaceJustinMeshes/hit-hand-2-finger-phaprox-closed.obj" />
+            <frame jointName="Thumb F/E 2" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                <position x="0.055" y="0" z="0" />
+                <orientation x="1.5708" y="-0" z="0" />
+                <axis x="0" y="0" z="1" />
+                <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="158" green="84" blue="112" meshFile="spaceJustinMeshes/hit-hand-2-finger-phamed-closed.obj" />
+                <frame jointName="Thumb F/E 3" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                    <position x="0.025" y="0" z="0" />
+                    <orientation x="0" y="-0" z="-1.5708" />
+                    <axis x="0" y="0" z="1" />
+                    <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="217" green="113" blue="138" meshFile="spaceJustinMeshes/hit-hand-2-finger-phadist-closed.obj" />
+                </frame>
+            </frame-->
+    <!-- <geom type="mesh" sx="0.33" sy="0.33" sz="0.33" tx="-0.0" ty="-0.01" tz="0.22" rx="-1.0" ry="-0.3" rz="1.6" red="114" green="60" blue="80" meshFile="back1mesh.obj" /> -->
+    <!-- <frame jointName="Thumb F/E 1" jointType="rotational" jointMin="0" jointMax="1.48353">
+        <position x="0.062569" y="-0.044545" z="0.080045" />
+        <orientation x="1.34499" y="-1.08366" z="-0.411361" />
+        <axis x="0" y="0" z="1" />
+        <frame jointName="Thumb A/A" jointType="rotational" jointMin="-0.261799" jointMax="0.261799">
+            <position x="0" y="0" z="0" />
+            <orientation x="-1.5708" y="-0" z="0" />
+            <axis x="0" y="0" z="1" />
+            <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="1.5708" ry="1.45547e-06" rz="3.14159" red="114" green="60" blue="80" meshFile="spaceJustinMeshes/hit-hand-2-finger-phaprox-closed.obj" />
+            <frame jointName="Thumb F/E 2" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                <position x="0.055" y="0" z="0" />
+                <orientation x="1.5708" y="-0" z="0" />
+                <axis x="0" y="0" z="1" />
+                <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="158" green="84" blue="112" meshFile="spaceJustinMeshes/hit-hand-2-finger-phamed-closed.obj" />
+                <frame jointName="Thumb F/E 3" jointType="rotational" jointMin="0.0872665" jointMax="1.13446">
+                    <position x="0.025" y="0" z="0" />
+                    <orientation x="0" y="-0" z="-1.5708" />
+                    <axis x="0" y="0" z="1" />
+                    <geom type="mesh" sx="1" sy="1" sz="1" tx="0" ty="0" tz="0" rx="3.14159" ry="-8.74228e-08" rz="3.14159" red="217" green="113" blue="138" meshFile="spaceJustinMeshes/hit-hand-2-finger-phadist-closed.obj" />
+                </frame>
+            </frame>
+        </frame>
+</model>
