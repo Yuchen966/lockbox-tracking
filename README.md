@@ -4,7 +4,10 @@ This project aims at tracking a lockbox using [DART](https://github.com/tschmidt
 
 ## Installation
 ```bash
-git clone https://github.com/NVlabs/PoseRBPF.git --recursive
+git clone https://github.com/Yuchen966/lockbox-tracking.git
+cd src
+git clone https://github.com/stevenlovegrove/Pangolin.git
+git clone https://github.com/tschmidt23/dart.git
 ```
 
 Navigate to src/Pangolin directory, follow the install instructions of the [Pangolin github repo](https://github.com/stevenlovegrove/Pangolin)
