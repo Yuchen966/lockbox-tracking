@@ -1,0 +1,44 @@
+<launch>
+
+  <!-- Camera TF frames -->
+  <arg name="camera" default="camera" />
+
+  <arg name="pi/2" value="1.5707963267948966" />
+  <arg name="optical_rotate" value="0 0 0 -$(arg pi/2) 0 -$(arg pi/2)" />
+
+  <node pkg="tf" type="static_transform_publisher" name="$(arg camera)_base_link"
+        args="0 0.045  0 0 0 0  /$(arg camera)_link /$(arg camera)_depth_frame 100" />  
+  <node pkg="tf" type="static_transform_publisher" name="$(arg camera)_base_link1"
+        args="0 0.02 0 0 0 0  /$(arg camera)_link /$(arg camera)_rgb_frame 100" />  
+  <node pkg="tf" type="static_transform_publisher" name="$(arg camera)_base_link2"
+        args="$(arg optical_rotate) /$(arg camera)_depth_frame /$(arg camera)_depth_optical_frame  100" />  
+  <node pkg="tf" type="static_transform_publisher" name="$(arg camera)_base_link3"
+        args="$(arg optical_rotate) /$(arg camera)_rgb_frame /$(arg camera)_rgb_optical_frame 100" />  
+        
+        
+        
+  <!-- Registering depth and color image -->
+
+  <node pkg="nodelet" type="nodelet" name="nodelet_manager" args="manager" />
+
+
+  <node pkg="nodelet" type="nodelet" name="nodelet0"
+        args="load depth_image_proc/register nodelet_manager">
+
+    <remap from="rgb/camera_info" to="/camera/rgb/camera_info"/>
+    <remap from="depth/camera_info" to="/camera/depth_registered/camera_info"/>
+    <remap from="depth/image_rect" to="/camera/depth_registered/image_raw"/>
+  </node>
+
+
+  <!-- Computing the pointcloud -->
+
+  <node pkg="nodelet" type="nodelet" name="nodelet1"
+        args="load depth_image_proc/point_cloud_xyzrgb nodelet_manager">
+
+    <remap from="rgb/camera_info" to="/camera/rgb/camera_info"/>
+    <remap from="rgb/image_rect_color" to="/camera/rgb/image_raw"/>
+<!--    <remap from="depth_registered/image_rect" to="/camera/depth_registered/image_raw"/> -->
+<!--    <remap from="depth_registered/points" to="/camera/depth/points"/> -->
+  </node>
+</launch>
